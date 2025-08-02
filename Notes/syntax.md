@@ -1,0 +1,9 @@
+- `start` - initial block of code that will run
+- `jmp` - jumps to given function
+- `puts` - like print statement
+	- params - ds:si -> string
+- `mov` - sets memory allocation
+- `loadsb` - loads a byte from `ds:si` into `al/ax`
+- `.loop` - self-explanatory
+- `or` - bitwise or operator
+- `jz` - jumps to destination if flag is set as zero

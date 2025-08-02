@@ -5,7 +5,7 @@ org 0x7C00
 ```
 this uses one of the available registry with no offset to start the program
 ## Segments in Registries
-`CS` - currently runnign code segment
+`CS` - currently running code segment
 `DS` - data segment
 `SS` - stack segment 
 `FS` - current segment
@@ -26,3 +26,8 @@ var: dw 100
 	mov ax, var      ; copy offset to ax
 	mov ax, [var]    ; copy memeory contents
 ```
+
+
+## Stack
+- Moves downwards in memory
+- It will override other programs if not set correctly
