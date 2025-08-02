@@ -3,6 +3,7 @@ bits 16
 
 
 main:
+
     hlt
 
 .halt:
